@@ -1,13 +1,330 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Trocchi&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arapey|Cambo|Fjord+One|Fredericka+the+Great|Josefin+Sans|Mate|Nanum+Myeongjo|Noto+Serif+SC|Ovo|Rufina&display=swap");
+
+.certButton {
+  display: bloack;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  width: 50%;
+}
+.fonts {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nanum Myeongjo", serif;
+  font-family: "Arapey", serif;
+  font-family: "Fredericka the Great", cursive;
+  font-family: "Rufina", serif;
+  font-family: "Ovo", serif;
+  font-family: "Cambo", serif;
+  font-family: "Noto Serif SC", serif;
+  font-family: "Mate", serif;
+  font-family: "Fjord One", serif;
+}
+.originalTitle {
+  text-shadow: 2px 2px crimson;
+  font-size: 5vw;
+  color: white;
+}
+
+.title {
+  text-shadow: 2px 2px white;
+  font-size: 5vw;
+  color: crimson;
+}
+.App {
+  font-family: "Libre Baskerville", serif;
+}
+.responsiveImage {
+  height: auto;
+  min-width: 100%;
+  border: none;
+}
+.card-title {
+  font-family: "Fjord One", serif;
+}
+.card-text {
+  font-family: "Fjord One", serif;
+  font-size: 0.5em;
+}
+.card-subtext {
+  font-family: "Fjord One", serif;
+  font-size: 1em;
+  margin: 0;
+}
+
+th,
+td,
+table {
+  text-align: center;
+  border: 1px dashed lightslategrey;
+  border-spacing: 5px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar,
+.gradient,
+.gradientBody {
+  background: #acb6e5;
+  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);
+  background: linear-gradient(to right, #86fde8, #acb6e5);
+}
+
+.finalTableRow {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+th {
+  font-family: "Libre Baskerville", serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.blue-shadow {
+  color: beige;
+  text-shadow: 1.2px 1.2px cornflowerblue;
+  font-size: 23px;
+}
+
+.teal-shadow {
+  color: beige;
+  text-shadow: 1.2px 1.2px teal;
+  font-size: 23px;
+}
+
+.table-time-text {
+  text-shadow: 1px 1px ghostwhite;
+  color: rebeccapurple;
+  font-size: 15px;
+}
+
+.table-blue-text {
+  text-shadow: 1px 1px ghostwhite;
+  color: darkmagenta;
+  font-size: 15px;
+}
+
+.table-course-text {
+  color: royalblue;
+  text-shadow: 1.2px 1.2px white;
+  font-size: 15px;
+}
+
+.table-date-text {
+  color: #2c7a8a;
+  text-shadow: 1px 1px white;
+  font-size: 15px;
+}
+
+.logo:hover {
+  animation-name: logo-hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes logo-hover {
+  100% {
+    color: black;
+  }
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: darkblue;
+
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+}
+.navbar:hover,
+navbar:focus {
+  background-color: #86fde8;
+}
+
+.heading {
+  padding: 10px 0px;
+  color: red;
+  text-shadow: 1.5px 1.5px white;
+  font-size: 2.5vw;
+}
+
+.OriginalHeading {
+  padding: 10px 0px;
+  color: white;
+  text-shadow: 1.5px 1.5px red;
+  font-size: 2.5vw;
+}
+
+.subheading {
+  padding: 10px 0px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 2.5vw;
+}
+
+.question {
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .footer p {
+    font-size: 3vw;
+  }
+}
+
+.inputDesign {
+  padding: 10px 20px;
+  font-weight: 300;
+  border: 1px solid #686e89;
+  min-width: 70%;
+  max-width: 80%;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 2vw;
+  margin-top: 20px;
+}
+
+.buttonDesign {
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-weight: 300;
+  border: 0;
+  font-size: 2vw;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.buttonDesign:hover {
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+}
+
+.checkBox {
+  font-size: 2.5vw;
+  padding: 10px 20px;
+  font-weight: 300;
+  color: darkblue;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.userprint {
+  font-size: 1.6vw;
+}
+
+.whiteWithBlack {
+  text-shadow: 1.3px 1.3px black;
+  color: white;
+}
+
+.javaIntro {
+  color: darkred;
+  font-size: 2.3vw;
+}
+:root {
+  --flipcard-transition-duration: 0.33s;
+  --flipcard-transition-easing-function: ease-in;
+}
+.Flipcard {
+  width: 100%;
+}
+.Flipcard-flipper {
+  transition: var(--flipcard-transition-duration, 0.33s)
+    var(--flipcard-transition-easing-function, ease-in);
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.Flipcard-front,
+.Flipcard-back {
+  backface-visibility: hidden;
+  transition: transform var(--flipcard-transition-duration, 0.33s)
+      var(--flipcard-transition-easing-function, ease-in),
+    opacity var(--flipcard-transition-duration, 0.33s)
+      var(--flipcard-transition-easing-function, ease-in);
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Flipcard-front {
+  transform: rotateY(0deg);
+}
+
+.Flipcard-back {
+  transform: rotateY(-180deg);
+}
+
+.Flipcard--horizontal.Flipcard--flipped > .Flipcard-front {
+  transform: rotateY(180deg);
+}
+
+.Flipcard--horizontal.Flipcard--flipped > .Flipcard-back {
+  transform: rotateY(0deg);
 }
